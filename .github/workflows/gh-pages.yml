@@ -27,10 +27,8 @@ jobs:
         with:
           node-version: 'lts/erbium'
 
-      - name: Build
-        run: 
-          npm install
-          hugo --minify
+      - run: npm install
+      - run: hugo --minify
 
       - name: Deploy to GH Pages 🚀
         uses: peaceiris/actions-gh-pages@v3
