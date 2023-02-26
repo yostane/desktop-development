@@ -1,9 +1,6 @@
 ---
 title: "Projet"
-weight: 1
-menu:
-  main:
-    weight: 1
+weight: 20
 ---
 
 Ce projet a deux missions principales:
