@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 'lts/erbium'
 
-      - run: npm ci
+      - run: npm install
       - run: hugo --minify
 
       - name: Deploy
