@@ -53,3 +53,5 @@ Il vous est demandé de livrer la présentation ainsi que le code source de votr
 - QT (en C++ ou un [langage alternatif](https://wiki.qt.io/Language_Bindings))
 - React Native for Windows + macOS
 - JavaFX
+- [avalonia](https://avaloniaui.net/)
+- UNO Platfrom
