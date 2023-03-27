@@ -6,7 +6,7 @@ description: >
   Etudions les différents paradigmes proposés par les frameworks qui ciblent le bureau
 ---
 
-Voici exemple de programmation déclarative et impérative en TypeScript
+Voici exemple de programmation déclarative et impérative en TypeScript:
 
 ```ts
 // typage implicite: la variable infère son type
