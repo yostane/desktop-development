@@ -54,4 +54,31 @@ Ces derniers permettent de lancer des traitements en même temps sans bloquer le
 &lt;/li>
 &lt;li>Pourquoi faire des threads virtuels ? Car le coût d&amp;rsquo;un thread OS est élevé est on est limité par le nombre de thread OS qu&amp;rsquo;on peut créer à la fois.&lt;/li>
 &lt;li>Cas particulier de JavaScript: un seul thread est utilisé pour faire de la programmation asynchrone (via un even Loop). On peut créer un équivalent de thread via les WebWorkers.&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ul></description></item><item><title>Docs: UX et accessibilité</title><link>https://yostane.github.io/desktop-development/docs/features/ux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yostane.github.io/desktop-development/docs/features/ux/</guid><description>
+&lt;h2 id="ux">UX&lt;/h2>
+&lt;blockquote>
+&lt;p>L&amp;rsquo;expérience utilisateur (en anglais, user experience ou UX en abrégé) est la qualité du vécu de l&amp;rsquo;utilisateur dans des environnements numériques ou physiques.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://fr.wikipedia.org/wiki/Exp%C3%A9rience_utilisateur">source wikipedia&lt;/a>&lt;/p>
+&lt;h2 id="laccessibilité">L&amp;rsquo;accessibilité&lt;/h2>
+&lt;blockquote>
+&lt;p>L&amp;rsquo;accessibilité est la mise à disposition de vos sites web au plus grand nombre. On pense souvent que cela s&amp;rsquo;adresse aux personnes ayant un handicap, mais cela concerne également d&amp;rsquo;autres groupes comme ceux utilisant des appareils mobiles ou ceux qui ont des connexions internet de faible débit.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility">source MDN&lt;/a>&lt;/p>
+&lt;h3 id="types-de-handicap-à-envisager">Types de handicap à envisager&lt;/h3>
+&lt;ul>
+&lt;li>Troubles de la vue&lt;/li>
+&lt;li>Troubles de l&amp;rsquo;audition&lt;/li>
+&lt;li>Troubles au niveau de la mobilité&lt;/li>
+&lt;li>Déficiences cognitives&lt;/li>
+&lt;/ul>
+&lt;p>Plus de détails dans &lt;a href="https://developer.apple.com/accessibility/">le site d&amp;rsquo;Apple&lt;/a> et &lt;a href="https://developer.mozilla.org/fr/docs/Learn/Accessibility/What_is_accessibility#quel_genre_de_handicap_devons_nous_envisager">Mozilla&lt;/a>&lt;/p>
+&lt;h3 id="lignes-directrices-et-législation">Lignes directrices et législation&lt;/h3>
+&lt;p>Pour le web, on a le &lt;a href="https://www.w3.org/WAI/standards-guidelines/wcag/fr">WGAC de la W3C&lt;/a>.
+Pour le mobile, on le &lt;a href="https://www.w3.org/WAI/standards-guidelines/mobile/">WAI de la W3C&lt;/a>.
+Pour le desktop c&amp;rsquo;est un peu compliqué.&lt;/p>
+&lt;p>&lt;a href="https://ec.europa.eu/social/main.jsp?catId=1202#navItem-1">European Mobile Act&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>From June 23, 2021, public sector bodies have the responsibility to make their mobile app content accessible to everyone.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a href="https://mobilea11y.com/blog/european-accessibility-act/">article de mobilea11y sur EAA&lt;/a>&lt;/p></description></item></channel></rss>
