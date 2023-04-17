@@ -35,11 +35,11 @@
 &lt;/ul></description></item><item><title>Docs: Programmation asynchrone</title><link>https://yostane.github.io/desktop-development/docs/features/async/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yostane.github.io/desktop-development/docs/features/async/</guid><description>
 &lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>Tout application démarre avec un seul processus et un seul thread d&amp;rsquo;exécution. Dans une application graphique, ce thread s&amp;rsquo;appelle le thread principal ou le thread UI et c&amp;rsquo;est lui qui gère l&amp;rsquo;affichage et les interactions avec l&amp;rsquo;utilisateur.&lt;/p>
-&lt;p>&lt;img src="./ui-thread.drawio.svg" alt="">&lt;/p>
+&lt;p>&lt;img src="https://yostane.github.io/desktop-development/img/ui-thread.drawio.svg" alt="">&lt;/p>
 &lt;p>Si on effectue des traitements longs (calcul d&amp;rsquo;un Fibonacci ou des nombres premiers) ou bloquants (attente de la réponse d&amp;rsquo;un serveur HTTP) dans le thread principal, il sera bloqué dans la partie &lt;em>&amp;ldquo;mise à jour de l&amp;rsquo;état de l&amp;rsquo;application&amp;rdquo;&lt;/em>, causant ainsi un blocage de l&amp;rsquo;affichage et des interaction (les fameux &lt;strong>freeze&lt;/strong>).
 C&amp;rsquo;est pour cela qu&amp;rsquo;on va effectuer ces traitements dans des threads.
 Ces derniers permettent de lancer des traitements en même temps sans bloquer le thread UI.&lt;/p>
-&lt;p>&lt;img src="./threads.drawio.svg" alt="">&lt;/p>
+&lt;p>&lt;img src="https://yostane.github.io/desktop-development/img/threads.drawio.svg" alt="">&lt;/p>
 &lt;p>La programmation avec les threads fait partie d&amp;rsquo;un concept plus général appelé &lt;strong>programmation asynchrone&lt;/strong>.&lt;/p>
 &lt;h2 id="la-programmation-asynchrone">La programmation asynchrone&lt;/h2>
 &lt;ul>
