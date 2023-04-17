@@ -48,7 +48,7 @@ Ces derniers permettent de lancer des traitements en même temps sans bloquer le
 &lt;li>Beaucoup des ces API créent ce qu&amp;rsquo;on peut qualifier des Thread virtuels. Ce sont des threads gérées par le programme et non par l&amp;rsquo;OS. Ceci permet de lancer plusieurs threads virtuels au sein d&amp;rsquo;un seul thread OS (on parle aussi de thread porteur).
 &lt;ul>
 &lt;li>En Kotlin: les thread virtuel sont appelés &lt;strong>coroutines&lt;/strong>.&lt;/li>
-&lt;li>En c#: &lt;strong>taches asynchrones&lt;/strong>&lt;/li>
+&lt;li>En C#: &lt;strong>taches asynchrones&lt;/strong>&lt;/li>
 &lt;li>En java: &lt;strong>Thread virtuels&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;/li>
