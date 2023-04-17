@@ -26,7 +26,7 @@ La programmation avec les threads fait partie d'un concept plus général appel�
 - En programmation, on écrit du code asynchrone via différntes API selon le langage: async await, promesses, threads, Rx (observables et observers), coroutines etc.
 - Beaucoup des ces API créent ce qu'on peut qualifier des Thread virtuels. Ce sont des threads gérées par le programme et non par l'OS. Ceci permet de lancer plusieurs threads virtuels au sein d'un seul thread OS (on parle aussi de thread porteur).
   - En Kotlin: les thread virtuel sont appelés **coroutines**.
-  - En c#: **taches asynchrones**
+  - En C#: **taches asynchrones**
   - En java: **Thread virtuels**
 - Pourquoi faire des threads virtuels ? Car le coût d'un thread OS est élevé est on est limité par le nombre de thread OS qu'on peut créer à la fois.
 - Cas particulier de JavaScript: un seul thread est utilisé pour faire de la programmation asynchrone (via un even Loop). On peut créer un équivalent de thread via les WebWorkers.
