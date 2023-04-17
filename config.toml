@@ -1,5 +1,6 @@
 baseURL = "https://yostane.github.io/desktop-development"
 title = "Développement Bureau"
+canonifyurls = true
 
 # Language settings
 contentDir = "content/fr"

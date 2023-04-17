@@ -1,6 +1,6 @@
 ---
 title: "Paradigmes de programmation d'UI"
-linkTitle: "paradigmes"
+linkTitle: "Paradigmes"
 weight: 1
 description: >
   Programmation impérative et déclarative

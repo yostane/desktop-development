@@ -1,6 +1,6 @@
 ---
 title: "Programmation asynchrone"
-linkTitle: "async"
+linkTitle: "Programmation asynchrone"
 weight: 2
 description: >
   Programmation asynchrone
@@ -10,13 +10,13 @@ description: >
 
 Tout application démarre avec un seul processus et un seul thread d'exécution. Dans une application graphique, ce thread s'appelle le thread principal ou le thread UI et c'est lui qui gère l'affichage et les interactions avec l'utilisateur.
 
-![](./ui-thread.drawio.svg)
+![](/img/ui-thread.drawio.svg)
 
 Si on effectue des traitements longs (calcul d'un Fibonacci ou des nombres premiers) ou bloquants (attente de la réponse d'un serveur HTTP) dans le thread principal, il sera bloqué dans la partie _"mise à jour de l'état de l'application"_, causant ainsi un blocage de l'affichage et des interaction (les fameux **freeze**).
 C'est pour cela qu'on va effectuer ces traitements dans des threads.
 Ces derniers permettent de lancer des traitements en même temps sans bloquer le thread UI.
 
-![](./threads.drawio.svg)
+![](/img/threads.drawio.svg)
 
 La programmation avec les threads fait partie d'un concept plus général appelé **programmation asynchrone**.
 
