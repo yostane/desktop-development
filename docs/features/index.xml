@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Développement d'apps de bureau – Concepts liés au développement desktop</title><link>https://yostane.github.io/desktop-development/docs/features/</link><description>Recent content in Concepts liés au développement desktop on Développement d'apps de bureau</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://yostane.github.io/desktop-development/docs/features/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Paradigmes de programmation d'UI</title><link>https://yostane.github.io/desktop-development/docs/features/paradigmes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yostane.github.io/desktop-development/docs/features/paradigmes/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Développement d'apps de bureau – Concepts liés au développement desktop</title><link>https://yostane.github.io/desktop-development/docs/features/</link><description>Recent content in Concepts liés au développement desktop on Développement d'apps de bureau</description><generator>Hugo -- gohugo.io</generator><language>fr</language><atom:link href="https://yostane.github.io/desktop-development/docs/features/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Paradigmes de programmation d'UI</title><link>https://yostane.github.io/desktop-development/docs/features/paradigmes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yostane.github.io/desktop-development/docs/features/paradigmes/</guid><description>
 &lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>Voici exemple de programmation déclarative et impérative en TypeScript:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-ts" data-lang="ts">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">// typage implicite: la variable infère son type
@@ -109,4 +109,20 @@ Pour le desktop c&amp;rsquo;est un peu compliqué.&lt;/p>
 &lt;blockquote>
 &lt;p>From June 23, 2021, public sector bodies have the responsibility to make their mobile app content accessible to everyone.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;a href="https://mobilea11y.com/blog/european-accessibility-act/">article de mobilea11y sur EAA&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;a href="https://mobilea11y.com/blog/european-accessibility-act/">article de mobilea11y sur EAA&lt;/a>&lt;/p></description></item><item><title>Docs: Installer le programme</title><link>https://yostane.github.io/desktop-development/docs/features/installeur/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yostane.github.io/desktop-development/docs/features/installeur/</guid><description>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Une fois l&amp;rsquo;application développée, testée et prête à partir en production, il faudra la fournir aux utilisateurs. Plusieurs moyens s&amp;rsquo;offrent à nous:&lt;/p>
+&lt;ul>
+&lt;li>Fournir une archive compressée&lt;/li>
+&lt;li>Fournir une application portable: comme un dmg sur mac ou une archive auto extractable sur windows.&lt;/li>
+&lt;li>Fournir un installeur comme Wix pour windows&lt;/li>
+&lt;li>Mettre à disposition sur un gestionnaire de paquêts
+&lt;ul>
+&lt;li>Windows: Scoop, Chocolatey ou winget&lt;/li>
+&lt;li>Ubuntu: apt&lt;/li>
+&lt;li>Javascript: npm&lt;/li>
+&lt;li>Python: PyPi (pour installation avec pip). &lt;a href="https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56">Voici un tuto&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Mettre à disposition sur un magasin d&amp;rsquo;applications (Windows store, App Store, etc.)&lt;/li>
+&lt;/ul></description></item></channel></rss>
