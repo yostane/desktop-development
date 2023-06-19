@@ -1,6 +1,6 @@
 ---
 title: "Installer le programme"
-linkTitle: "installeur"
+linkTitle: "Installeur"
 weight: 4
 description: >
   Création d'un installeur
