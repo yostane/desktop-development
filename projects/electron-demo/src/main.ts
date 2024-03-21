@@ -1,10 +1,5 @@
 import { app, BrowserWindow } from "electron";
 import path from "path";
-import fs from "node:fs";
-
-fs.readdir("/", {}, (err, files) => {
-  console.log(files);
-});
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require("electron-squirrel-startup")) {
@@ -17,6 +12,7 @@ const createWindow = () => {
     width: 800,
     height: 600,
     webPreferences: {
+      nodeIntegration: true,
       preload: path.join(__dirname, "preload.js"),
     },
   });

@@ -16,6 +16,12 @@
       async function increment() {
         count++;
         document.getElementById("count_element").innerText = count + "";
+        console.log(
+          window.versions,
+          window.versions.node(),
+          window.versions.chrome(),
+          window.versions.electron()
+        );
       }
     </script>
   </body>
