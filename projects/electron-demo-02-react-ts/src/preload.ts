@@ -11,7 +11,5 @@ contextBridge.exposeInMainWorld("versions", {
 
 window.addEventListener("DOMContentLoaded", async () => {
   const files = await fs.readdir(".");
-  const html = files.map((file) => `<li>${file}</li>`).join("\n");
-  document.getElementById("files").innerHTML = `<ul>${html}</ul>`;
   console.log(files);
 });

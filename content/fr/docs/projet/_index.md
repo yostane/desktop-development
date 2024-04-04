@@ -68,7 +68,7 @@ Il vous est demandé de développer une application de bureau de type CRUD (Crea
 - CRUD avec Firebase + UI (6 pts)
 - Authentification avec Firebase (3 pts)
 - Utilisation d'un [crash reporter](https://www.electronjs.org/docs/latest/api/crash-reporter) (3 pts)
-- Implémentation de 4 fonctionnalités natives via le module `electron` (4 pts) (exemples: icône dans la barre d'état système (system tray), service en arrière-plan, Option pour démarrer automatiquement avec le système, Menu contextuel natif (au clic droit))
+- Implémentation de 4 fonctionnalités natives via le module `electron` (exemples: icône dans la barre d'état système (system tray), service en arrière-plan, Option pour démarrer automatiquement avec le système, Menu contextuel natif (au clic droit)) (4 pts)
   - ⚠ Le crash reporter n'est compté ici.
 - Création d'un installeur (2 pts)
 - Publication sur un gestionnaire de paquets (scoop, chocolatey, brew, etc.) (2 pts)
