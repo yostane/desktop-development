@@ -1,1 +1,1 @@
-# dektop-development
+# Cours de dev desktop

@@ -3,7 +3,7 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
+      - main # Set a branch to deploy
   pull_request:
 
 jobs:
@@ -14,21 +14,21 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0         # Fetch all history for .GitInfo and .Lastmod
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: latest
           extended: true
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 'lts/erbium'
+          node-version: "lts/erbium"
 
       - run: npm install
-      - run: hugo --minify
+      - run: npm run build:production
 
       - name: Deploy to GH Pages 🚀
         uses: peaceiris/actions-gh-pages@v3
