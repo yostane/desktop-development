@@ -1,6 +1,6 @@
 import ShoppingItem from "./components/ShoppingItem";
 
-export default function App() {
+export default function ReactRootComponent() {
   return (
     <>
       <h1>Hello react 💖 electronnJS</h1>
