@@ -5,3 +5,4 @@ package-lock.json
 .hugo_build.lock
 bun.lockb
 .vscode
+desktop-development.sln
