@@ -1,6 +1,11 @@
 // Deux champs pour saisir l'email et le mdp et deux boutons pour se connecter et s'inscrire
 
-import { getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
+import {
+  createUserWithEmailAndPassword,
+  getAuth,
+  signInWithEmailAndPassword,
+  signOut,
+} from "firebase/auth";
 import { useState } from "react";
 import { app } from "../firebase";
 
@@ -22,8 +27,15 @@ export default function AuthenticationComponent() {
     setLoggedInEmail("");
   }
 
-  function register() {
+  async function register() {
     console.log("register with", email, password);
+    const auth = getAuth(app);
+    const userInfo = await createUserWithEmailAndPassword(
+      auth,
+      email,
+      password
+    );
+    setLoggedInEmail(userInfo.user.email);
   }
 
   return (
