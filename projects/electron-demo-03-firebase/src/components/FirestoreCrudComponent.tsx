@@ -1,10 +1,17 @@
 // List d'articles récupérés depuis firestore
 import { useState } from "react";
 import { app } from "../firebase";
-import { collection, getDocs, getFirestore } from "firebase/firestore";
+import {
+  collection,
+  doc,
+  getDocs,
+  getFirestore,
+  setDoc,
+} from "firebase/firestore";
 import ShoppingItem from "./ShoppingItem";
 
 type ShoppingItem = {
+  id?: string;
   name: string;
   price: number;
 };
@@ -15,7 +22,7 @@ export default function FirestoreCrudComponent() {
   const [price, setPrice] = useState(0);
 
   const itemList = items.map((item) => (
-    <li>
+    <li key={item.id}>
       <ShoppingItem name={item.name} price={item.price} />
     </li>
   ));
@@ -25,7 +32,11 @@ export default function FirestoreCrudComponent() {
       name,
       price,
     };
-    console.log("adding item", itemToAdd);
+    const firestore = getFirestore(app);
+    const itemsCollection = collection(firestore, "ShoppingItems");
+    const newDoc = doc(itemsCollection);
+    await setDoc(newDoc, itemToAdd);
+    await loadItems();
   }
 
   async function loadItems() {
@@ -35,6 +46,7 @@ export default function FirestoreCrudComponent() {
     const loadedItems = docsSnapshot.docs.map((doc) => ({
       name: doc.data().name,
       price: doc.data().price,
+      id: doc.id,
     }));
     setItems(loadedItems);
   }
