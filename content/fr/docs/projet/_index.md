@@ -20,6 +20,8 @@ Il vous est demandé de développer une application de bureau de type CRUD (Crea
   - Service en arrière-plan
   - Option pour démarrer automatiquement avec le système
   - Menu contextuel (au clic droit)
+  - [dialog](https://www.electronjs.org/docs/latest/api/dialog)
+  - [Capture d'écran](https://www.electronjs.org/docs/latest/api/desktop-capturer)
 - Compatible et fonctionnel avec au moins deux plateformes (vous pouvez utiliser WSL ou une VM) (2 pts)
 - Publication sur un gestionnaire de paquêts (scoop, chocolatey, brew, etc.) (2 pts)
 - Création d'un installeur qui ne nécessite pas les droits admin (2 pts)
