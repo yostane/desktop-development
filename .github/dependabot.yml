@@ -8,3 +8,11 @@ updates:
       dev-dependencies:
         patterns:
           - "*" # Group all updates
+  - package-ecosystem: gomod
+    directory: "/"
+    schedule:
+      interval: monthly
+    groups:
+      dev-dependencies:
+        patterns:
+          - "*" # Group all updates
